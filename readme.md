@@ -185,7 +185,7 @@ chmod +x install.sh
 
 ## 📜 开源许可
 
-本项目基于 **GPL 2.0** 协议开源，详情参见 [LICENSE](LICENSE) 文件。
+本项目基于 **GPL 3.0** 协议开源，详情参见 [LICENSE](LICENSE) 文件。
 
 ---
 
