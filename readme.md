@@ -1,7 +1,9 @@
 **这是一个自动填表器**  
 **This is an auto-fill Excel machine**
+
 简体中文[readme.md](readme.md) file for details.
-English[readme_en.md](readme_en.md) file for details.
+English[readme_en.md](readme_en.md) file for details.、
+
 它可以根据 Excel 表格中指定单元格（如 E3、E4）的成绩数值，从不同词库中随机选取关键词，自动填入对应的单元格（如 B5、B6、F3、F4），并支持整行数据填充。适用于生成个性化评语、学生反馈等批量处理场景。
 
 ## ✨ 功能特点
