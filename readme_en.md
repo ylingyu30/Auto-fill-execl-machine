@@ -1,6 +1,7 @@
-```markdown
 **这是一个自动填表器**  
 **This is an auto-fill Excel machine**
+
+简体中文[readme.md](readme.md) file for details.
 
 It can automatically select keywords from different word banks based on score values in specified cells (e.g., E3, E4) of an Excel sheet, fill them into corresponding cells (e.g., B5, B6, F3, F4), and support full-row data filling. It is suitable for batch scenarios such as generating personalized comments or student feedback.
 
