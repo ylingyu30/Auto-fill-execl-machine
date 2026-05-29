@@ -1,0 +1,106 @@
+{
+    "input_dir": "data",
+    "output_dir": "output",
+    "subjects": [
+        {
+            "name": "语文",
+            "sheet_name": "语文",
+            "fill_rules": {
+                "B5": {
+                    "score_cell": "E3",
+                    "thresholds": [75, 50],
+                    "wordbanks": ["wordbanks/语文/B5good.txt", "wordbanks/语文/B5med.txt", "wordbanks/语文/B5low.txt"],
+                    "skip_on_invalid": true,
+                    "invalid_markers": ["缺考", "缺", "无"]
+                },
+                "B6": {
+                    "score_cell": "E4",
+                    "thresholds": [80, 60],
+                    "wordbanks": ["wordbanks/语文/B6good.txt", "wordbanks/语文/B6med.txt", "wordbanks/语文/B6low.txt"],
+                    "skip_on_invalid": true,
+                    "invalid_markers": ["缺考", "缺", "无"]
+                },
+                "F3": {
+                    "score_cell": "E3",
+                    "thresholds": [75, 50],
+                    "wordbanks": ["wordbanks/语文/F3good.txt", "wordbanks/语文/F3med.txt", "wordbanks/语文/F3low.txt"],
+                    "skip_on_invalid": true,
+                    "invalid_markers": ["缺考", "缺", "无"]
+                },
+                "F4": {
+                    "score_cell": "E4",
+                    "thresholds": [80, 60],
+                    "wordbanks": ["wordbanks/语文/F4good.txt", "wordbanks/语文/F4med.txt", "wordbanks/语文/F4low.txt"],
+                    "skip_on_invalid": true,
+                    "invalid_markers": ["缺考", "缺", "无"]
+                },
+                "A12:E12": {
+                    "file": "wordbanks/语文/A12-E12.csv",
+                    "delimiter": ","
+                }
+            }
+        },
+        {
+            "name": "数学",
+            "sheet_name": "数学",
+            "fill_rules": {
+                "B5": {
+                    "score_cell": "E3",
+                    "thresholds": [70, 40],
+                    "wordbanks": ["wordbanks/数学/B5good.txt", "wordbanks/数学/B5med.txt", "wordbanks/数学/B5low.txt"],
+                    "skip_on_invalid": true,
+                    "invalid_markers": ["缺考", "缺", "无"]
+                },
+                "B6": {
+                    "score_cell": "E4",
+                    "thresholds": [75, 45],
+                    "wordbanks": ["wordbanks/数学/B6good.txt", "wordbanks/数学/B6med.txt", "wordbanks/数学/B6low.txt"],
+                    "skip_on_invalid": true,
+                    "invalid_markers": ["缺考", "缺", "无"]
+                },
+                "A12:E12": {
+                    "file": "wordbanks/数学/A12-E12.csv",
+                    "delimiter": ","
+                }
+            }
+        },
+        {
+            "name": "英语",
+            "sheet_name": "英语",
+            "fill_rules": {
+                "B5": {
+                    "score_cell": "E3",
+                    "thresholds": [75, 50],
+                    "wordbanks": ["wordbanks/英语/B5good.txt", "wordbanks/英语/B5med.txt", "wordbanks/英语/B5low.txt"],
+                    "skip_on_invalid": true,
+                    "invalid_markers": ["缺考", "缺", "无"]
+                },
+                "B6": {
+                    "score_cell": "E4",
+                    "thresholds": [80, 60],
+                    "wordbanks": ["wordbanks/英语/B6good.txt", "wordbanks/英语/B6med.txt", "wordbanks/英语/B6low.txt"],
+                    "skip_on_invalid": true,
+                    "invalid_markers": ["缺考", "缺", "无"]
+                },
+                "F3": {
+                    "score_cell": "E3",
+                    "thresholds": [75, 50],
+                    "wordbanks": ["wordbanks/英语/F3good.txt", "wordbanks/英语/F3med.txt", "wordbanks/英语/F3low.txt"],
+                    "skip_on_invalid": true,
+                    "invalid_markers": ["缺考", "缺", "无"]
+                },
+                "F4": {
+                    "score_cell": "E4",
+                    "thresholds": [80, 60],
+                    "wordbanks": ["wordbanks/英语/F4good.txt", "wordbanks/英语/F4med.txt", "wordbanks/英语/F4low.txt"],
+                    "skip_on_invalid": true,
+                    "invalid_markers": ["缺考", "缺", "无"]
+                },
+                "A12:E12": {
+                    "file": "wordbanks/英语/A12-E12.csv",
+                    "delimiter": ","
+                }
+            }
+        }
+    ]
+}
